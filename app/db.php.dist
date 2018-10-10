@@ -13,7 +13,7 @@
  *
  */
 
-define('APP_DB_USER', 'user');
-define('APP_DB_PWD', 'password');
+define('APP_DB_USER', 'milonte');
+define('APP_DB_PWD', '25121997');
 define('APP_DB_HOST', 'localhost');
-define('APP_DB_NAME', 'database_name');
+define('APP_DB_NAME', 'aslo');
