@@ -55,3 +55,10 @@ header .social li a {
 header .social li a:hover {
     color: #0091ff;
     border-color: #59a0d7; }
+
+#footer
+{
+    background-color: black;
+    color: white;
+}
+
