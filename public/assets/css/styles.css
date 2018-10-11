@@ -55,3 +55,22 @@ header .social li a {
 header .social li a:hover {
     color: #0091ff;
     border-color: #59a0d7; }
+/*css Présentation de l'asso */
+
+.presentation {
+    padding-top: 65pt;
+    font-size: 14.5pt;
+}
+.titrepresentation {
+    text-align: center;
+    padding-bottom: 20pt;
+}
+.btn-outline-secondary {
+    margin-left: 15vw;
+}
+@media (max-width: 992px) {
+    .img-presentation {
+        margin-top: 8.5vh;
+    }
+}
+
