@@ -9,16 +9,12 @@
 
 namespace Controller;
 
-
-
 /**
  * Class HomeController
  *
  */
 class HomeController extends AbstractController
 {
-
-
     /**
      * Display item listing
      *

@@ -8,37 +8,46 @@ header .navbar {
 }
 
 header .navbar-collapse {
-    flex-grow: 0; 
-    background: black; }
-  
+    flex-grow: 0;
+    background: black;
+}
+
 header .navbar {
     background: black;
-    max-height: 80px; }
+    max-height: 80px;
+}
 
 .navbar .navbar-nav .nav-link {
-    color: rgba(255,255,255,1); }
+    color: rgba(255, 255, 255, 1);
+}
 
 .navbar .navbar-nav .nav-link:hover {
-    background-color: rgb(0, 122, 236); }
-    
+    background-color: rgb(0, 122, 236);
+}
 
-header a.navbar-brand, a.logo {
+header a.navbar-brand,
+a.logo {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff !important;
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 0; }
+    margin-top: 0;
+}
 
-header a.logo:hover, a.logo:active, a.logo:focus {
-    text-decoration: none; }
+header a.logo:hover,
+a.logo:active,
+a.logo:focus {
+    text-decoration: none;
+}
 
 header .social {
     margin: 0 auto;
-    padding: 0; }
+    padding: 0;
+}
 
 header .social li {
     display: inline-block;
- }
+}
 
 header .social li a {
     display: block;
@@ -48,16 +57,254 @@ header .social li a {
     text-align: center;
     text-decoration: none;
     color: white;
-
     line-height: 1.5;
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+}
 
 header .social li a:hover {
     color: #0091ff;
-    border-color: #59a0d7; }
+    border-color: #59a0d7; 
+}
 
+/* --- BANNIERE --- */
+
+.cover-1 {
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    max-height: 60vh;
+    height: 60vh;
+    border-radius: 0;
+    width: 100%;
+    color: #fff;
+}
+
+.cover-1 h1 {
+    font-weight: 200;
+}
+
+.cover-1 p.lead {
+    margin: 2rem auto;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.cover-1 .cover-container {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.cover-1 .bg-jedi-opa {
+    background: #2b2d34 url(../images/banniere.jpg) center;
+    background-blend-mode: overlay;
+    height: 100%;
+}
+
+.cover-1 .btn {
+    font-size: 1.5em;
+    max-width: 100vw;
+}
+
+.content-1 .btn-outline-secondary {
+    font-size: 1.5em;
+}
+
+.cover-2 {
+    background: #2b2d34 url(../images/cover-bg-1.jpg) center;
+    background: #2b2d34;
+    background-size: cover;
+    height: auto;
+    border-radius: 0;
+    width: 100%;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.cover-2 p.lead {
+    margin: 2rem auto;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.cover-2 .cover-container {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.cover-5 {
+    background: #f7f7f8;
+    min-height: 40rem;
+    height: auto;
+    border-radius: 0;
+    width: 100%;
+    color: #333;
+    padding-top: 1rem;
+}
+
+.cover-5 a.navbar-brand {
+    color: #000 !important;
+}
+
+.cover-5 h1 {
+    color: #000;
+    font-weight: 200;
+}
+
+.cover-5 p.lead {
+    margin: 2rem auto;
+    color: #696b6e;
+    font-family: "Droid Serif", Times, Georgia, serif;
+    font-style: italic;
+}
+
+.cover-5 .cover-container {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.cover-inner {
+    display: table-cell;
+    vertical-align: middle;
+    max-width: 100vw;
+
+}
+
+.jumbotron-heading {
+    font-size: 5vh;
+    margin-top: 15vh;
+}
+
+.lead {
+    font-size: 1em;
+}
+
+/* VIDEO */
+.video-responsive
+{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.video-responsive iframe
+{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* ---  BANNIERE BOUTONS ---  */
+
+header .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+header .cover-1 .btn {
+    font-size: 1.5em;
+    max-width: 100vw;
+}
+
+header .btn-outline-white,
+.btn-outline-white:visited {
+    background: none;
+    color: #fff;
+    border-color: #fff;
+}
+
+header .btn-lg {
+    padding: 1.1rem 2.5rem;
+    font-size: .9rem;
+}
+
+header .btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-white,
+.btn-outline-success,
+.btn-outline-info,
+.btn-outline-warning,
+.btn-outline-danger {
+    border-width: 0.15rem;
+}
+
+header .btn-primary,
+.btn-outline-primary,
+.btn-secondary,
+.btn-outline-secondary,
+.btn-white,
+.btn-outline-white,
+.btn-success,
+.btn-outline-success,
+.btn-info,
+.btn-outline-info,
+.btn-warning,
+.btn-outline-warning,
+.btn-danger,
+.btn-outline-danger {
+    font-size: .75rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: .3rem;
+}
+
+header .btn-group-lg>.btn,
+.btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+header .btn-outline-white:hover,
+.btn-outline-white:focus,
+.btn-outline-white:active {
+    color: #46484a;
+    background: #fff;
+}
+/*css Présentation de l'asso */
+
+.about_us {
+    padding-top: 65pt;
+    font-size: 14.5pt;
+}
+.titleabout_us {
+    text-align: center;
+    padding-bottom: 20pt;
+}
+
+@media (max-width: 992px) {
+    .img-about_us {
+        margin-top: 8.5vh;
+    }
+}
 /*--section adresse Gymnase--*/
 
 .content-2 h3 {
     font-size: 1.65rem;
+}
+
+/* -- FOOTER -- */
+.footer {
+    background-color: black;
+}
+
+.footer_logo {
+    font-size: 35px;
+}
+
+footer a {
+    color: white;
+}
+
+
+@media (max-width: 420px) {
+    .footer_logo {
+        font-size: 25px;
+    }
+
+    .mention {
+        font-size: 12px;
+    }
 }

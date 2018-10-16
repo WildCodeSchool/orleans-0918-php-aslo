@@ -4,7 +4,14 @@
 
 {% block style %} {% endblock %}
 
-
 {% block content %}
-    {%  include 'Home/GymnasiumAdressSection.html.twig' %}
+
+    {% include "Home/About_us.twig" %}
+    
+    {% include 'Home/GymnasiumAdressSection.html.twig' %}
+    
+    {% include "Home/video.html.twig" %}
+
+    {% include 'Item/galleryPhotosHome.html.twig' %}
+
 {% endblock %}
